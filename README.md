@@ -53,6 +53,14 @@ npm run build
 
 The built files will be in the `dist` directory.
 
+## 🚀 Deploy to GitHub Pages
+
+After building for production, deploy to GitHub Pages using:
+
+```bash
+git subtree push --prefix dist origin gh-pages
+```
+
 ## 📁 Project Structure
 
 ```
