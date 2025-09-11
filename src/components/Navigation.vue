@@ -131,6 +131,19 @@ export default defineComponent({
 }
 
 @media (max-width: 768px) {
+  .nav-container {
+    padding: 0 15px;
+  }
+
+  .nav-logo {
+    flex: 1;
+    min-width: 0;
+  }
+
+  .logo-text {
+    display: none;
+  }
+
   .nav-menu {
     position: fixed;
     left: -100%;
@@ -150,6 +163,8 @@ export default defineComponent({
 
   .nav-toggle {
     display: flex;
+    margin-left: auto;
+    padding: 5px;
   }
 
   .nav-toggle.active .bar:nth-child(2) {
